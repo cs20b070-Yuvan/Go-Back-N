@@ -1,0 +1,11 @@
+These codes are working on python versions 3.10 and above
+
+NOTE : Some codes are taken from sample codes given by sir and I got to know about subprocess calls from the internet
+
+Instructions to run:
+1. first open wsl (windows system linux or ubuntu terminal on your machine)
+2. Run : python3 Receive.py -d -p 7777 -n 400 -e 0.1
+3. Run : python3 Send.py -s localhost -d -p 7777 -n 400 -l 512 -r 100 -w 3 -f 10
+ 
+
+NOTE : Since I used python , this does not require a make file 
